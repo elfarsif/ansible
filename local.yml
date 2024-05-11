@@ -15,6 +15,7 @@
         - alacritty
         - zsh
 	- curl
+	- wget
 
 
 #oh my zsh installation requires to do:
@@ -25,3 +26,5 @@
 #p10k theme for ohmyzsh use manual install not the oh myzsh one and remeber to restart terminal after
 #git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 #echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+
