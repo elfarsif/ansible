@@ -15,3 +15,8 @@
         - alacritty
         - zsh
 	- curl
+
+
+#oh my zsh installation requires to do:
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+#
