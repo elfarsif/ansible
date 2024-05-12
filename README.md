@@ -27,27 +27,15 @@ sudo ansible-pull -U https://github.com/elfarsif/ansible.git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+##zsh auto-sugesstion
+
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
     ```sh
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
+## nerd font install
 
-2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
-
-    ```sh
-    plugins=( 
-        # other plugins...
-        zsh-autosuggestions
-    )
-    ```
-
-
-There a few changes i have to still automate
-
--ohmyzsh and p10k are both directly from the repo, the links are in the local.yml file
-
--automate the extraction of nerdfont
 wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
 && cd ~/.local/share/fonts \
 && unzip JetBrainsMono.zip \
@@ -55,7 +43,5 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
 && fc-cache -fv
 
 
--zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 
