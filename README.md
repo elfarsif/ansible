@@ -22,7 +22,10 @@ ansible pull allows to run playbook from remote repo like this one.
 sudo ansible-pull -U https://github.com/elfarsif/ansible.git
 ```
 
-
+4. Manually install oh-my-zsh (I know i know isnt that the whole point of ansible, im new lol)
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 
 
