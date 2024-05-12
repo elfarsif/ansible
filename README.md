@@ -17,7 +17,10 @@ which ansible-pull
 
 ansible pull allows to run playbook from remote repo like this one.
 
-
+3. Pull ansible playbook
+```bash
+sudo ansible-pull -U https://github.com/elfarsif/ansible.git
+```
 
 
 
