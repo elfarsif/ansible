@@ -17,6 +17,7 @@
 	- curl
 	- wget
 	- build-essential
+	- tmux
 
 
 #oh my zsh installation requires to do:
