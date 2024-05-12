@@ -1,6 +1,27 @@
 # ansible
 Ansible configuration for my desktop
-New Change
+
+How to run this:
+
+1.Install ansible
+```bash
+sudo apt update
+sudo apt install ansible
+```
+
+2.check for installed binary
+```bash
+which ansible-playbook
+which ansible-pull
+```
+
+ansible pull allows to run playbook from remote repo like this one.
+
+
+
+
+
+
 
 
 There a few changes i have to still automate
