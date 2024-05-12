@@ -17,5 +17,8 @@
         - tmux
         - wget
         - curl
-  - name : install oh-my-zsh
-    shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"   
+  - name: Install ohmyzsh
+    ansible.builtin.git:
+      repo: https://github.com/ohmyzsh/ohmyzsh.git
+      dest: ~/.oh-my-zsh
+      depth: 1
