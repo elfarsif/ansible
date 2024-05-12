@@ -13,8 +13,3 @@
         - feh
         - stow
         - alacritty
-        - zsh
-	- curl
-	- wget
-	- build-essential
-	- tmux
