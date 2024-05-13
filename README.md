@@ -17,6 +17,11 @@ which ansible-pull
 
 ansible pull allows to run playbook from remote repo like this one.
 
+2.5 install git to use ansible pull
+```bash
+sudo apt install git
+```
+
 3. Pull ansible playbook
 ```bash
 sudo ansible-pull -U https://github.com/elfarsif/ansible.git
