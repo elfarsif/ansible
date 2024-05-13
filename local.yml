@@ -19,3 +19,6 @@
         - curl
         - dia
         - picom
+        - build-essential
+        - ripgrep
+        - fd-find
