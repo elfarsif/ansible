@@ -22,5 +22,8 @@
         - build-essential
         - ripgrep
         - fd-find
+        - unzip
   - name: install oh-my-zsh
     ansible.builtin.shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  - name: install nerd font jetbrains
+    ansible.builtin.shell: wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip && cd ~/.local/share/fonts && unzip JetBrainsMono.zip && rm JetBrainsMono.zip && fc-cache -fv
