@@ -13,7 +13,8 @@ sudo apt install ansible
 ```bash
 which ansible-playbook
 which ansible-pull
-```
+```git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 
 ansible pull allows to run playbook from remote repo like this one.
 
@@ -26,6 +27,19 @@ sudo apt install git
 ```bash
 sudo ansible-pull -U https://github.com/elfarsif/ansible.git
 ```
+
+4. Pull dotfiles
+```bash
+cd ~
+git clone https://github.com/elfarsif/.dotfiles.git
+cd .dotfiles
+stow .
+```
+
+Remember to commit to git you need to switch to ssh link
+
+
+
 
 ##zsh auto-sugesstion
 
